@@ -1,1 +1,2 @@
-web : gunicorn reest:app
+web : gunicorn app:app
+web : gunicorn run:reest
