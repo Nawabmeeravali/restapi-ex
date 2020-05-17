@@ -11,7 +11,7 @@ reest = Flask(__name__)
 
 @reest.route('/')
 def hello():
-    return "Hello World!"
+    return <h1>"Hello World!"</h1>
 
 @reest.route('/hello')
 def realhello():
